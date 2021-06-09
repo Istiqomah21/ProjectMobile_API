@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/item_detailsave"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:cardCornerRadius="20dp"
     app:cardElevation="9dp"
-    android:layout_margin="10dp">
+    android:layout_margin="10dp"
     tools:context=".view.activity.DetailSaveActivity">
 
     <LinearLayout
@@ -80,12 +80,12 @@
             <Button
                 android:id="@+id/save_favorite"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Favorite"/>
             <Button
                 android:id="@+id/delete_favorite"
-                android:layout_width="wrap_content"
+                android:layout_width="5dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:drawableTop="@drawable/delete"
@@ -94,15 +94,12 @@
                 android:id="@+id/iv_favorite"
                 android:src="@drawable/ic_launcher_background"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 />
-
 
         </LinearLayout>
 
-
     </LinearLayout>
-
 
 </androidx.cardview.widget.CardView>
 
