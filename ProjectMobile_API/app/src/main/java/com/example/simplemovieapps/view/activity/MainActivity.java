@@ -98,6 +98,7 @@ public boolean onCreateOptionsMenu (Menu menu){
                 editor.apply();
                 Intent intent = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);
+                finish();
         }
         return super.onOptionsItemSelected(item);
     }

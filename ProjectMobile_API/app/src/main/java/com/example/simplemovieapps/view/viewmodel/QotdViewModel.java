@@ -66,7 +66,6 @@ public class QotdViewModel extends ViewModel {
         }
     }
 
-
 // karena menggunakan live data
     public LiveData<ArrayList<QuoteResultItem>> getQotdDiscover(){
         return listDiscoverQotd;

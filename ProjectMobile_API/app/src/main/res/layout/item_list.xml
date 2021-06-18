@@ -80,7 +80,7 @@
                     android:layout_height="wrap_content"
                     android:text="10"
                     android:gravity="center_vertical"
-                    />
+                    android:layout_marginEnd="8dp"/>
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -92,7 +92,7 @@
                     android:layout_height="wrap_content"
                     android:text="10"
                     android:gravity="center_vertical"
-                    />
+                    android:layout_marginEnd="8dp"/>
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -104,7 +104,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="10"
-                    android:gravity="center_vertical" />
+                    android:gravity="center_vertical"
+                    android:layout_marginEnd="4dp"/>
 
             </LinearLayout>
         </LinearLayout>
